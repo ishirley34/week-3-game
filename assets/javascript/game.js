@@ -16,7 +16,7 @@
 
 	}
 	// This unction randomly chooses a letter from the letters array and sets it to the computer guess
-	function genCompChoice(){
+	function genCompChoice() {
 		var compChoice = letters[Math.floor(Math.random() * letters.length)];
 		return compChoice;
 	}
